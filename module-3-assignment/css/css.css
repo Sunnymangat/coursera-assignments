@@ -11,15 +11,12 @@ body{
   margin-right: -3%;
   margin-left: -3%;
 }
-@media screen and (min-width:577px) and (max-width:640px){
+@media screen and (min-width:575px) and (max-width:767px){
   .a{
     display: none;
   }
   .navbar-brand{
     font-size:40px;
-  }
-  .navbutton{
-    display: none;
   }
   .row{
     border:1px solid black;
