@@ -1,4 +1,4 @@
-$(function () { 
+$(function () {
   $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
     if (screenWidth < 768) {
@@ -205,8 +205,5 @@ function insertItemPortionName(html,
   html = insertProperty(html, portionPropName, portionValue);
   return html;
 }
-
-
 global.$dc = dc;
-
 })(window);
