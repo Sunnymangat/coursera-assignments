@@ -83,13 +83,16 @@ figcaption{
   .para{
     display: block;
   }
+  .ques{
+    position:static;
+  }
   .con{
     margin-top:50px;
   }
   .cont{
     margin-top:20px;
   }
-  .ques{
-    position:static;
+  .new{
+    clear:both;
   }
 }
