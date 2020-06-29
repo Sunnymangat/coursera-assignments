@@ -45,7 +45,7 @@ marquee{
 }
 .row-img img{
   margin:4px;
-  width:48.5%;
+  width:100%;
   border:3px solid grey;
 }
 figcaption{
@@ -65,7 +65,7 @@ figcaption{
   left:1%;
   top:70%;
 }
-@media screen and (max-width:592px) {
+@media screen and (max-width:575px) {
   .row-img img{
     margin:4px;
     width:98%;
