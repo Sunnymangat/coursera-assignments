@@ -65,6 +65,14 @@ figcaption{
   left:1%;
   top:70%;
 }
+ins{
+  text-decoration: none;
+}
+.active{
+  background-color: white;
+  color:magenta;
+  border-radius: 3px;
+}
 @media screen and (max-width:575px) {
   .row-img img{
     margin:4px;
@@ -96,6 +104,6 @@ figcaption{
     clear:both;
   }
   .row-img1{
-    clear:both;    
+    clear:both;
   }
 }
