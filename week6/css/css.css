@@ -1,0 +1,109 @@
+body{
+  background-image:linear-gradient(to left,cyan,yellow,springgreen);
+}
+.navbar-brand{
+font-size: 200%;
+}
+.nav-item{
+  font-size: 140%;
+}
+.navbar{
+  background-image:linear-gradient(to left,fuchsia,mediumspringgreen);
+  border: 2px solid black;
+  border-radius: 2px;
+}
+.container{
+  border:2px solid black;
+}
+.fp{
+  background-image: url('https://www.pathwaylighting.com/img/nested_filter_sets/image_1589828037_CylindersLED_hometile.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.display-4{
+  border-radius: 5px;
+  text-align: justify;
+  background-color: rgba(255,255,255,0.3);
+  font-weight:600;
+  font-size: 2em;
+}
+marquee{
+  border:1px solid grey;
+    font-size: 130%;
+    float:left;
+    font-weight:bold;
+    background-image: linear-gradient(yellow,white);
+    width:40%;
+}
+.lead{
+  font-weight: bolder;
+  font-size: 150%;
+}
+.description{
+  font-size: 130%;
+  width:100%;
+}
+.row-img img{
+  margin:4px;
+  width:100%;
+  border:3px solid grey;
+}
+figcaption{
+  font-weight: bold;
+}
+.row-img1 img{
+  margin:1px;
+  width:100%;
+  height:200px;
+  border:3px solid grey;
+}
+.container-fluid{
+  background-image: linear-gradient(lightgreen,white);
+}
+.ques{
+  position:fixed;
+  left:1%;
+  top:70%;
+}
+ins{
+  text-decoration: none;
+}
+.active{
+  background-color: white;
+  color:magenta;
+  border-radius: 3px;
+}
+@media screen and (max-width:575px) {
+  .row-img img{
+    margin:4px;
+    width:98%;
+    border:3px solid grey;
+  }
+  .fp{
+    text-align:left;
+    font-family:serif;
+    padding: 2px;
+  }
+  marquee{
+    display: block;
+    width:100%;
+  }
+  .para{
+    display: block;
+  }
+  .ques{
+    position:static;
+  }
+  .con{
+    margin-top:50px;
+  }
+  .cont{
+    margin-top:20px;
+  }
+  .new{
+    clear:both;
+  }
+  .row-img1{
+    clear:both;
+  }
+}
